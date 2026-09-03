@@ -10,6 +10,7 @@ export abstract class typeDocument {
         public telefone: number,
         public email: string,
         public endereco: string,
+        public numeroDocumento: number
         
     )
 

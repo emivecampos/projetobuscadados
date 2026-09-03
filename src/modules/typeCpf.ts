@@ -1,4 +1,4 @@
-import { typeDocument } from '../typeDocument';
+import { typeDocument } from './typeDocument';
 
 export class typeCpf extends typeDocument {
 
@@ -13,11 +13,11 @@ export class typeCpf extends typeDocument {
         public telefone: number,
         public email: string,
         public endereco: string,
-        public numeroCpf: number,
+        public numeroDocumento: number,
 
     ) 
     {
-        super(nome, renda, dividasAtivas, quantidadeDividasAtivas, protestosAtivos, quantidadeProtestosAtivos, telefone, email, endereco, numeroCpf);
+        super(nome, renda, dividasAtivas, quantidadeDividasAtivas, protestosAtivos, quantidadeProtestosAtivos, telefone, email, endereco, numeroDocumento);
     }
 
 

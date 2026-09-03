@@ -1,9 +1,8 @@
-import { typeDocument } from '../data/data';
+import { documents } from "../data/data";
+import { typeDocument } from "../modules/typeDocument";
 
-const documents: typeDocument[] = [];
-
-export function searchDocument(nome: string): typeDocument | undefined {
-
-    return documents.find((document) => document.nome === nome);
+export function searchDocument(numeroDocumento: number): typeDocument | undefined {
+    
+    return documents.find((document) => document.numeroDocumento === numeroDocumento);
 
 }

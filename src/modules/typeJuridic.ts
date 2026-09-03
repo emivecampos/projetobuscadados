@@ -1,4 +1,4 @@
-import { typeDocument } from '../typeDocument';
+import { typeDocument } from './typeDocument';
 
 export class typeJuridic extends typeDocument {
     constructor(
@@ -12,13 +12,13 @@ export class typeJuridic extends typeDocument {
         public telefone: number,
         public email: string,
         public endereco: string,
-        public numeroCnpj: number,
+        public numeroDocumento: number,
         public quantidadeFuncionarios: number,
-        public quandroSocietario: string,
+        public quadroSocietario: string,
 
     )
     {
-        super(nome, renda, dividasAtivas, quantidadeDividasAtivas, protestosAtivos, quantidadeProtestosAtivos, telefone, email, endereco, numeroCnpj, quantidadeFuncionarios, quandroSocietario);
+        super(nome, renda, dividasAtivas, quantidadeDividasAtivas, protestosAtivos, quantidadeProtestosAtivos, telefone, email, endereco, numeroDocumento);
     }
 
 
