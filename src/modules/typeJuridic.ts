@@ -17,8 +17,9 @@ export class typeJuridic extends typeDocument {
         public quadroSocietario: string,
 
     )
+
     {
-        super(nome, renda, dividasAtivas, quantidadeDividasAtivas, protestosAtivos, quantidadeProtestosAtivos, telefone, email, endereco, numeroDocumento, quantidadeFuncionarios, quadroSocietario);
+        super(nome, renda, dividasAtivas, quantidadeDividasAtivas, protestosAtivos, quantidadeProtestosAtivos, telefone, email, endereco, numeroDocumento);
     }
 
 
