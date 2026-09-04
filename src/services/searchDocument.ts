@@ -1,4 +1,4 @@
-import { documents } from "../data/data";
+import { documents } from "../data/data.js"
 import { typeDocument } from "../modules/typeDocument";
 
 export function searchDocument(numeroDocumento: string): typeDocument | undefined {
@@ -6,3 +6,4 @@ export function searchDocument(numeroDocumento: string): typeDocument | undefine
     return documents.find((document) => document.numeroDocumento === numeroDocumento);
 
 }
+
