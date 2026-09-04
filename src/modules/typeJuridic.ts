@@ -9,16 +9,16 @@ export class typeJuridic extends typeDocument {
         public quantidadeDividasAtivas: number,
         public protestosAtivos: boolean,
         public quantidadeProtestosAtivos: number,
-        public telefone: number,
+        public telefone: string,
         public email: string,
         public endereco: string,
-        public numeroDocumento: number,
+        public numeroDocumento: string,
         public quantidadeFuncionarios: number,
         public quadroSocietario: string,
 
     )
     {
-        super(nome, renda, dividasAtivas, quantidadeDividasAtivas, protestosAtivos, quantidadeProtestosAtivos, telefone, email, endereco, numeroDocumento);
+        super(nome, renda, dividasAtivas, quantidadeDividasAtivas, protestosAtivos, quantidadeProtestosAtivos, telefone, email, endereco, numeroDocumento, quantidadeFuncionarios, quadroSocietario);
     }
 
 
